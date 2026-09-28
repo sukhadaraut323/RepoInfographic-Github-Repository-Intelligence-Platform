@@ -67,3 +67,25 @@ workspace/
 node_modules/
 frontend/dist/
 frontend/build/
+frontend/node_modules
+dist
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/build/
+
+# Environment files
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
